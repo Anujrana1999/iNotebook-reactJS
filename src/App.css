@@ -1,0 +1,13 @@
+.menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .menu-open {
+    max-height: 500px; /* Set a suitable max-height value */
+  }
+  
+  .menu-closed {
+    max-height: 0;
+  }
